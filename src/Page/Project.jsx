@@ -49,13 +49,13 @@ const projectsData = [
 const Project = () => {
     const titleRef = useRef(null);
 
-    // GSAP Animation for the Title
+   
     useEffect(() => {
         if (titleRef.current) {
-            // Set initial state (Hidden)
+           
             gsap.set(titleRef.current, { y: -50, opacity: 0 }); 
             
-            // Animate to final state (Visible)
+          
             gsap.to(titleRef.current, {
                 y: 0,
                 opacity: 1,
@@ -68,13 +68,13 @@ const Project = () => {
     return (
         <div className="relative min-h-screen px-6 lg:px-20 py-20 text-gray-200">
             
-            {/* Background Glows */}
+     <title>Project</title>
             <div className="absolute inset-0 -z-10">
                 <div className="w-72 h-72 bg-[#7F00FF]/25 blur-[150px] rounded-full absolute top-10 left-5"></div>
                 <div className="w-72 h-72 bg-[#00DBDE]/20 blur-[150px] rounded-full absolute bottom-20 right-10"></div>
             </div>
 
-            {/* Title - Animated by GSAP */}
+
             <h1
                 ref={titleRef}
                 className="text-4xl lg:text-6xl font-bold text-center mb-16 
@@ -84,7 +84,7 @@ const Project = () => {
                 My Featured Projects
             </h1>
 
-            {/* Project Grid - Animated by Framer Motion Stagger */}
+
             <motion.div
                 variants={containerVariants}
                 initial="hidden"
@@ -103,7 +103,7 @@ const Project = () => {
                         transition={{ type: "spring", stiffness: 300 }}
                         className="bg-[#1a1a2e] p-5 rounded-xl border border-white/10 overflow-hidden shadow-lg"
                     >
-                        {/* *** FIX 3: Actual Image Component *** */}
+                    
                         <div className="h-40 overflow-hidden rounded-lg mb-4">
                             <img
                                 src={project.image} 
@@ -111,7 +111,7 @@ const Project = () => {
                                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                             />
                         </div>
-                        {/* ********************************* */}
+                       
                         
                         <h2 className="text-2xl font-semibold text-[#00DBDE] mb-2">
                             {project.name}

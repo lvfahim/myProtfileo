@@ -33,7 +33,7 @@ const About = () => {
     return (
         <div className="relative  px-6 lg:px-20 pt-28 pb-52 text-gray-200">
 
-          
+          <title>About Me</title>
             <div className="absolute inset-0 -z-10">
                 <div className="w-72 h-72 bg-[#7F00FF]/25 blur-[150px] rounded-full absolute top-10 left-5"></div>
                 <div className="w-72 h-72 bg-[#00DBDE]/20 blur-[150px] rounded-full absolute bottom-20 right-10"></div>

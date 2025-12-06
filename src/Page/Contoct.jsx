@@ -36,7 +36,7 @@ const Contact = () => {
 
     return (
         <div className="relative min-h-screen px-6 lg:px-20 py-20 text-gray-200">
-
+            <title>Contact Me</title>
             <div className="absolute inset-0 -z-10">
                 <div className="w-72 h-72 bg-[#7F00FF]/25 blur-[150px] rounded-full absolute top-10 left-10"></div>
                 <div className="w-72 h-72 bg-[#00DBDE]/20 blur-[150px] rounded-full absolute bottom-20 right-10"></div>

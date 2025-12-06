@@ -99,7 +99,7 @@ const Home = () => {
                         transition={{ delay: 1.5, duration: 0.8, type: "spring", stiffness: 100 }}
                     >
                         <a
-                            href="#contact" 
+                            href="/contact" 
                             className="px-8 py-3 rounded-full font-semibold text-lg bg-gradient-to-r from-[#7F00FF] to-[#E100FF] 
                                    text-white shadow-lg hover:shadow-[#7F00FF]/50 transition duration-300"
                         >

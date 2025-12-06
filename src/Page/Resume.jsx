@@ -37,7 +37,7 @@ const Resume = () => {
     <div className="pt-28 pb-52 
      text-white flex flex-col items-center py-14 px-5">
       
-     
+     <title>Resume</title>
       <h1 
         ref={titleRef}
         className="text-4xl lg:text-5xl mb-4 font-bold text-center 
