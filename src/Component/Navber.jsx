@@ -23,6 +23,12 @@ const Navbar = () => {
         PROJECTS
       </NavLink>
       <NavLink 
+        to="/skills" 
+        className="nav-link px-3 py-2 rounded-md hover:bg-[#7F00FF]/20 transition"
+      >
+        SKILLS
+      </NavLink>
+      <NavLink 
         to="/resume" 
         className="nav-link px-3 py-2 rounded-md hover:bg-[#7F00FF]/20 transition"
       >
