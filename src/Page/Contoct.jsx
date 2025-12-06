@@ -14,7 +14,6 @@ const Contact = () => {
         if (formRef.current) {
             gsap.set(formRef.current, { y: 60, opacity: 0 });
         }
-
         if (titleRef.current) {
             gsap.to(titleRef.current, {
                 y: 0,

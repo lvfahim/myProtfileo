@@ -71,8 +71,8 @@ const About = () => {
                     className="max-w-xl"
                 >
                     <p className="text-lg leading-8 text-gray-300">
-                        Hi, I'm <span className="text-[#03E1FF] font-semibold">MD FAHIM</span>,
-                        a passionate and dedicated web developer.
+                        Hi, I'm <span className="text-[#03E1FF] font-semibold">MD FAHIM </span>,
+                        a passionate and dedicated web developer
                         I enjoy building interactive, user-friendly applications using modern
                         technologies like <span className="text-[#FF6FD8]">React</span>,
                         <span className="text-[#03E1FF]">Tailwind</span>, and 
