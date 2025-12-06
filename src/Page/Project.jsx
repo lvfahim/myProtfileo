@@ -1,8 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { motion } from "framer-motion";
 import gsap from "gsap";
-// *** FIX 1: Corrected and completed image imports ***
-import Motorion from '../assets/motorio.jpg'; // Corrected path/filename assumed
+import Motorion from '../assets/motorion.png'; 
 import PlantLife from '../assets/plantLife.png'; 
 import Hero from '../assets/hero.png';
 
@@ -29,14 +28,14 @@ const projectsData = [
         description: "A trusted vehicle rental platform featuring cars, bikes, and yachts. Designed for fast and instant booking.",
         link: "https://startling-tiramisu-00ff96.netlify.app/",
         image: Motorion, 
-        tags: ["React", "Booking", "Tailwind"],
+        tags: ["React", "Mongodb", "Tailwind"],
     },
     {
         name: "Plant Life - Green Nest",
         description: "A modern platform focused on selling indoor plants to create healthy, calm, and beautiful home environments.",
         link: "https://astonishing-cat-18d66d.netlify.app/",
         image: PlantLife, 
-        tags: ["React", "E-commerce", "SaaS"],
+        tags: ["React", "E-commerce", "TailWind"],
     },
     {
         name: "HERO.IO - Productive Apps",
