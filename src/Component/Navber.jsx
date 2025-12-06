@@ -43,7 +43,7 @@ const Navbar = () => {
         
         {/* Logo */}
         <div className="text-2xl font-bold bg-gradient-to-r from-[#9C27B0] to-[#03A9F4] text-transparent bg-clip-text">
-          
+          MD FAHIM
         </div>
 
         {/* Mobile dropdown */}
