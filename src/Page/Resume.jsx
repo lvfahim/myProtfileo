@@ -34,7 +34,7 @@ const Resume = () => {
   }, []);
 
   return (
-    <div className="min-h-screen 
+    <div className="pt-28 pb-52 
      text-white flex flex-col items-center py-14 px-5">
       
      
