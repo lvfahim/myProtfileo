@@ -124,6 +124,7 @@ const Contact = () => {
             
      
             <ContactDetails />
+            
             <h1
                 ref={titleRef}
                 className="text-4xl lg:text-6xl font-bold text-center mb-16

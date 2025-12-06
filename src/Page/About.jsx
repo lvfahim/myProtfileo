@@ -76,7 +76,7 @@ const About = () => {
                         I enjoy building interactive, user-friendly applications using modern
                         technologies like <span className="text-[#FF6FD8]">React</span>,
                         <span className="text-[#03E1FF]">Tailwind</span>, and 
-                        <span className="text-[#7F00FF]"> Next.js</span>.
+                        <span className="text-[#7F00FF]"> JavaScript</span>.
                         <br /> <br />
                         I love solving problems, exploring new ideas, and creating meaningful
                         digital experiences. My goal is to become a complete full-stack

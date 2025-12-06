@@ -66,7 +66,7 @@ const Resume = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             target="_blank"
-            href="https://docs.google.com/document/d/1KJijPj4d9shhbHTBa2Qf1vHPguenLnLl/edit#heading=h.qzhsejyr6qaw"
+            href="https://drive.google.com/file/d/1zRBVdWt9RxWp44m8YCuFStn0Va8cePUP/view?usp=sharing"
             className="block bg-blue-600 hover:bg-blue-700 px-5 py-3 rounded-lg font-medium"
           >
             🌐 Frontend Developer Resume
@@ -76,7 +76,7 @@ const Resume = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             target="_blank"
-            href="https://docs.google.com/document/d/1Nikb4LaMAylqHutwFFdARCirZJGlWIhW_jWIyG-H-Fs/edit?tab=t.0#heading=h.qzhsejyr6qaw"
+            href="https://drive.google.com/file/d/1g3--UFycnj_aiveyVPROGVokxjTQuYR8/view?usp=sharing"
             className="block bg-green-600 hover:bg-green-700 px-5 py-3 rounded-lg font-medium"
           >
             💾 Backend Developer Resume
@@ -86,7 +86,7 @@ const Resume = () => {
           <motion.a
             whileHover={{ scale: 1.05 }}
             target="_blank"
-            href="https://docs.google.com/document/d/1aCA1kL5I6tAYXDeh5qAH0dtA2c2q41WH9oPTymOV-j4/edit?tab=t.0#heading=h.qzhsejyr6qaw"
+            href="https://drive.google.com/file/d/1btbbhiUunPFcrpJnrxBZb2ayxcV_6lK_/view?usp=sharing"
             className="block bg-purple-600 hover:bg-purple-700 px-5 py-3 rounded-lg font-medium"
           >
             🖥️ Full-Stack Developer Resume

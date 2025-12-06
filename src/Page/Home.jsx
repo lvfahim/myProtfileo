@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-
+import pdf from '../assets/MD FAHIM Full-Stack Developer Resume.pdf'
 const cardVariants = {
     initial: { y: 50, opacity: 0 },
     animate: {
@@ -15,8 +15,8 @@ const cardVariants = {
 const bannerVariants = {
     animate: {
         transition: {
-            staggerChildren: 0.15, 
-            delayChildren: 0.5,    
+            staggerChildren: 0.15,
+            delayChildren: 0.5,
         },
     },
 };
@@ -44,20 +44,20 @@ const Home = () => {
         <div className="">
             <div className="relative  text-white flex flex-col items-center justify-center pt-20 pb-10 px-6 lg:px-20 overflow-hidden">
 
-      
+
                 <div className="absolute inset-0 -z-10 opacity-70">
                     <div className="w-96 h-96 bg-[#7F00FF]/30 blur-[180px] rounded-full absolute top-10 left-5"></div>
                     <div className="w-96 h-96 bg-[#00DBDE]/30 blur-[180px] rounded-full absolute bottom-20 right-10"></div>
                 </div>
 
-     
+
                 <motion.div
                     variants={bannerVariants}
                     initial="initial"
                     animate="animate"
                     className="text-center z-10 max-w-4xl"
                 >
-                  
+
                     <motion.h4
                         variants={textVariants}
                         className="text-xl md:text-2xl font-medium text-gray-400 mb-2"
@@ -65,7 +65,7 @@ const Home = () => {
                         Hello, I'm
                     </motion.h4>
 
-             
+
                     <motion.h1
                         variants={textVariants}
                         className="text-6xl sm:text-7xl lg:text-8xl font-extrabold mb-4 
@@ -75,7 +75,7 @@ const Home = () => {
                         {name}
                     </motion.h1>
 
-                
+
                     <motion.h2
                         variants={textVariants}
                         className="text-3xl sm:text-4xl lg:text-5xl font-semibold mb-6 text-[#00DBDE]"
@@ -83,7 +83,7 @@ const Home = () => {
                         {role}
                     </motion.h2>
 
-               
+
                     <motion.p
                         variants={textVariants}
                         className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-10"
@@ -91,7 +91,7 @@ const Home = () => {
                         {tagline}
                     </motion.p>
 
-               
+
                     <motion.div
                         className="flex justify-center space-x-6"
                         initial={{ opacity: 0, y: 30 }}
@@ -99,20 +99,29 @@ const Home = () => {
                         transition={{ delay: 1.5, duration: 0.8, type: "spring", stiffness: 100 }}
                     >
                         <a
-                            href="/contact" 
+                            href="/contact"
                             className="px-8 py-3 rounded-full font-semibold text-lg bg-gradient-to-r from-[#7F00FF] to-[#E100FF] 
                                    text-white shadow-lg hover:shadow-[#7F00FF]/50 transition duration-300"
                         >
                             Hire Me
                         </a>
                         <a
-                            href="/MD FAHIM Full-Stack Developer Resume.pdf" 
-                            download="MD_FAHIM_Resume.pdf" 
+                            href={pdf}
+                            download="MD_FAHIM_Resume.pdf"
                             className="px-8 py-3 rounded-full font-semibold text-lg bg-gray-800 text-[#00DBDE] 
                                border border-[#00DBDE]/50 hover:bg-gray-700 transition duration-300"
                         >
                             Download Resume
                         </a>
+                        {/* <button className='btn'
+                            variant="primary"
+                            href={pdf}
+                            target="_blank"
+                            style={{ maxWidth: "250px" }}
+                        >
+                          
+                            &nbsp;Download CV
+                        </button> */}
                     </motion.div>
                 </motion.div>
             </div>
