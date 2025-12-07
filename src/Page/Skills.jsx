@@ -27,7 +27,7 @@ const skillsData = {
     { name: "GitHub", percent: 90 },
     { name: "VS Code", percent: 95 },
     { name: "Postman", percent: 82 },
-    { name: "Figma", percent: 70 },
+    { name: "Figma", percent: 80 },
   ],
 };
 
