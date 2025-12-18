@@ -4,6 +4,7 @@ import gsap from "gsap";
 import Motorion from '../assets/motorion.png'; 
 import PlantLife from '../assets/plantLife.png'; 
 import Hero from '../assets/hero.png';
+import ClubVerse from '../assets/ClubVerse.png'
 
 // Framer Motion container variants for staggered animation
 const containerVariants = {
@@ -23,6 +24,13 @@ const itemVariants = {
 };
 
 const projectsData = [
+    {
+        name: "ClubVerse - Club join",
+        description: "ClubSphere is a secure platform for managing clubs, communities, and events with role-based access.",
+        link: "https://clubverselv.netlify.app/",
+        image: ClubVerse, 
+        tags: ["React", "Payment", "Mongodb"],
+    },
     {
         name: "Motorio - Car Rental",
         description: "A trusted vehicle rental platform featuring cars, bikes, and yachts. Designed for fast and instant booking.",
